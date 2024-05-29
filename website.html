@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Son Hyunbin's Web Page </title>
+
+<script>
+function myAlertMath(){
+var userNumber=document.getElementById("mathInput".value;
+alert("Your number%5 is"+userNumber*5));
+}
+</script>
+	<script>
+	function doMath(){
+	var x=2;
+	var y=10;
+	var z=4;
+	var answer=x*y/z;
+	document.getElementById("output").innerHTML="The result is" + answer;
+	
+	}
+	</script>
+
+<script type="text/javascript">
+function addParagraphText(){
+document.getElementById("para").innerHTML="Thanks for adding text!";
+}
+</script>
+
+
+</head>
+javascript 사용가능한 대표적인 이벤트들에는 onclick , onload, onblur, onmouseover등이 있다.
+
+
+<body>
+<h1>Let's click a button</h1>
+<button onclick="addParagraphText();">Click Me</button>
+<p id="para"></p>
+
+<p>Javascript Alert testing.</p>
+<button onclick="alert('The test worked');">Alert test</button>
+<input id="math input" type="number"/> <button onclick="myAlertMath()">Multiply*5</button>
+
+
+
+<p> JavaScript Testing.</p>
+<button onclick="doMath();"> Do the Math</button>
+//이런식으로 어떤 동작에 대해서 어떤 행동을 할지 적어줄 수 있다.
+<p id="output" style="color:green;font-size:200%;"></p>
+
+<style type="text/css">
+p.regular{color:blue;font-size:100%;}
+p.medium{color:green;font-size:150%}
+</style>
+//style type을 이용해 자주 쓰는건 정해서 p class를 이용해 쓸 수 있다.
+<p class="regular"> This is a test of regular.</p>
+<p class="medium">This is a test of the test class.</p>
+
+
+<p class="testClass">This is a testClass font</p>
+
+<H1 style="color:blue;"> 목차 </H1>
+//inline css style
+<h3> this is a smaller heading</h3>
+<!--This is my exercise.table -->
+<a href="http://swcon.khu.ac.kr"> Department of software convergence</a>
+<p> Fracting HTML is Fun. </p>
+<h4> test</h4>
+<br> br basic tag</br>
+<strong> strong basic 글씨 굵게 쓰기 tag</strong>
+<img src="google.png"/>
+<tr>
+<td>Day1</td>
+<td>Walking</td>
+<td>30 minutes</td>
+</tr>
+<em>em basic em 이탤릭체 tag</em>
+</body>
+
+
+</html>
